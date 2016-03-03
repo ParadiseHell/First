@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/movie_info_item_background"
+    android:orientation="vertical"  >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/home_titile_backgroud" >
+
+        <ImageView
+            android:id="@+id/moive_comment_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/movie_comment"
+            android:src="@drawable/write_comment_button"/>
+
+        <ImageView
+            android:id="@+id/moive_comment_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/movie_comment"
+            android:src="@drawable/return_button" />
+
+        <TextView
+            android:id="@+id/moive_info_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/moive_comment_edit"
+            android:layout_centerHorizontal="true"
+            android:text="@string/movie_comment_title"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+<ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-28dp"
+        android:layout_marginTop="-28dp"
+        android:contentDescription="@string/movie_comment"
+        android:src="@drawable/home_title_image" />
+
+<ListView
+    android:id="@+id/movie_comment_list_view"
+    android:layout_width="match_parent"
+    android:layout_height="0dp" 
+    android:layout_weight="1">
+</ListView>
+
+</LinearLayout>

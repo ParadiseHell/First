@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <Button
+        android:textColor="#747474"
+        android:textSize="20sp"
+        android:id="@+id/pop_window_movie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pop_window_movie"
+        android:background="#FFFFFFFF"/>
+
+    <Button
+        android:background="#FFFFFFFF"
+        android:textSize="20sp"
+        android:textColor="#747474"
+        android:layout_marginTop="15dp"
+        android:id="@+id/pop_window_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pop_window_card"/>
+
+    <Button
+        android:background="#FFFFFFFF"
+        android:textSize="20sp"
+        android:textColor="#747474"
+        android:layout_marginTop="15dp"
+        android:id="@+id/pop_window_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pop_window_setting" />
+    <Button
+        android:background="#FFFFFFFF"
+        android:textSize="20sp"
+        android:textColor="#747474"
+        android:layout_marginTop="15dp"
+        android:id="@+id/pop_window_add_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pop_window_add_data"/>
+
+</LinearLayout>

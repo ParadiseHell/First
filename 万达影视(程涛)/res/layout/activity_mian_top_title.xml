@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/home_titile_backgroud"
+    android:padding="5dp" >
+
+    <ImageView
+        android:id="@+id/iv_main_top_slide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/slide_icon"
+        android:src="@drawable/mode_button" />
+
+    <TextView
+        android:id="@+id/tv_main_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="55dp"
+        android:layout_marginStart="55dp"
+        android:layout_toEndOf="@id/iv_main_top_slide"
+        android:layout_toRightOf="@id/iv_main_top_slide"
+        android:text="@string/tv_mian_title"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:textSize="28sp"/>
+
+    <ImageView
+        android:id="@+id/im_main_top_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="3dp"
+        android:layout_toEndOf="@id/tv_main_title"
+        android:layout_toRightOf="@id/tv_main_title"
+        android:contentDescription="@string/title_line"
+        android:src="@drawable/home_title_line" />
+
+    <TextView
+        android:id="@+id/tv_choose_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@id/im_main_top_line"
+        android:layout_toRightOf="@id/im_main_top_line"
+        android:text="@string/tv_beijing"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp" />
+
+    <ImageButton
+        android:background="#FFFFFFFF"
+        android:id="@+id/im_pop_window"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/choose_city_icon"
+        android:src="@drawable/choose_city" />
+</RelativeLayout>
